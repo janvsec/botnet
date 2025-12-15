@@ -1,0 +1,15 @@
+
+Terminal based Botnet example
+
+commands:
+ping, screenshot*, shell, ..
+
+port 80 or 443
+
+IP Rotation
+Logging system
+Authentication for host as well as client
+Encrypted traffic
+Cryptographic identity 
+Dont rely on IP but on identity
+
