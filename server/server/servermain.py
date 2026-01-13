@@ -69,11 +69,10 @@ btn_orange.pack(fill="x", pady=5, padx=10)
 
 btn_purple = tk.Button(left_panel, text="Run Purple", command=run_purple, bg=theme["button_bg"], fg=theme["button_fg"], activebackground=theme["button_active_bg"], activeforeground=theme["button_active_fg"], font=theme["button_font"], relief="flat", bd=0, padx=theme["padding"], pady=theme["padding"])
 btn_purple.pack(fill="x", pady=5, padx=10)
-
+##########################
 btn_brown = tk.Button(left_panel, text="Run Brown", command=run_brown, bg=theme["button_bg"], fg=theme["button_fg"], activebackground=theme["button_active_bg"], activeforeground=theme["button_active_fg"], font=theme["button_font"], relief="flat", bd=0, padx=theme["padding"], pady=theme["padding"])
 btn_brown.pack(fill="x", pady=5, padx=10)
 
 output_label = tk.Label(right_frame, text="", font=theme["label_font"], bg=theme["bg"], fg=theme["fg"], wraplength=750, justify="center")
-output_label.pack(expand=True)
-
+output_label.pack(expand=True)
 app.mainloop()
